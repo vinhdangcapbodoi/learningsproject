@@ -3,7 +3,7 @@
 
 <head>
     <meta name="author" content="Nguyễn Vinh">
-    <meta name="description" content="trang web tự làm đầu tiên">  <!--thông tin là meta, có chức năng khi tìm kiếm -->
+    <meta name="description" content="trang web tự làm đầu tiên">  
     <meta charset="UTF-8">
 <link rel="icon" href="icon1.png" type="image/x-icon"> 
 <title> Đầu Tiên </title>
@@ -17,27 +17,20 @@
  
     <style> 
   p {
-    margin:2; /* khoảng cách */
+    margin:2; 
   }
   h1, h2, h3 {
-    margin: 2; /* margin mặc định của heading */
+    margin: 2; 
   }
 </style>
 <header style="text-align:center; background-color: darkgray;">
 
-  <h2>          <!--Thẻ <h1> … <h6> trong HTML dùng để tạo tiêu đề (heading).
-                Có 6 cấp: từ <h1> (to, quan trọng nhất) đến <h6> (nhỏ, ít quan trọng nhất).
-                Thường dùng để đánh dấu các phần nội dung chính/phụ trong trang.
-                Công cụ tìm kiếm (Google, Bing, …) ưu tiên đọc nội dung trong <h1>, <h2>.-->
-
+  <h2>          
   Xin chào
 </h2>
 
 
-<nav>       <!--Thẻ <nav> trong HTML dùng để tạo khu vực điều hướng (navigation) của trang web.
-             Thường chứa menu, danh sách liên kết dẫn tới các phần trong cùng trang hoặc các trang khác.
-             Giúp người dùng và công cụ tìm kiếm hiểu rõ cấu trúc điều hướng.-->
-
+<nav>     
 
  <a href="#tuoi"><strong>Tuổi</strong></a> &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#gioitinh"><strong>Giới tính</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
@@ -51,22 +44,17 @@ nav a:hover{color:crimson;}
 </header>
     
 
-    <hr>                  <!--Thẻ <hr> trong HTML dùng để tạo đường kẻ ngang (horizontal rule) để ngăn cách nội dung.-->
+    <hr>                 
   <h2> Giới thiệu </h2>
 
-  <figure>      <!--Thẻ <figure> trong HTML dùng để bao quanh nội dung minh họa (hình ảnh, biểu đồ, code, video, …) kèm chú thích.
-                Thường đi chung với thẻ <figcaption> để thêm chú thích cho nội dung.
-                Giúp nội dung minh họa gắn kết với chú thích, dễ hiểu hơn.-->
+  <figure>      
 
- <a href="".\about.html""> <img src=""IMG_1722661770500_1722661794311 (1).jpg"" alt="Nguyễn Vinh" title="Ảnh hồi nhỏ" width="200" height="150"> </a>
+ <img src=""IMG_1722661770500_1722661794311 (1).jpg"" alt="Nguyễn Vinh" title="Ảnh hồi nhỏ" width="200" height="150"> 
 
 
 
 
-  <figcaption>    <!--Thẻ <figcaption> dùng để tạo chú thích cho nội dung trong <figure>.
-                  Nó phải nằm bên trong thẻ <figure>.
-                  Có thể đặt trước hoặc sau nội dung minh họa.
-                  Giúp người xem hiểu rõ hình ảnh/biểu đồ đó nói về gì.-->
+  <figcaption>   
 
     Ảnh tôi lúc nhỏ
   </figcaption>
@@ -75,30 +63,25 @@ nav a:hover{color:crimson;}
   <p> Tôi là <em>Nguyễn Vinh</em> và:</p>
   <dl>
    
-<details>        <!--<details> = khối nội dung ẩn/hiện.-->
+<details>       
 
-<summary>        <!--<summary> = tiêu đề hiển thị để nhấn vào.-->
+<summary>        
   Thông tin cơ bản
 </summary>
 
   <ul>
 
-    <section>      <!--Thẻ <section> trong HTML dùng để chia một phần nội dung có ý nghĩa riêng trong trang web.
-                  Thường dùng để nhóm nội dung theo chủ đề (vd: giới thiệu, sản phẩm, liên hệ…).
-                  Bên trong có thể chứa h1–h6, p, article, div, …
-                  Giúp cấu trúc trang rõ ràng hơn cho người đọc và SEO.-->
+    <section>      
 
     <dt id="tuoi">Tuổi </dt>
     <dd>
-      <li>Tôi 15 tuổi</li>     <!--Thẻ <li> trong HTML dùng để tạo một mục (list item) trong danh sách.
-                               Nó phải nằm bên trong <ul> (unordered list = danh sách không thứ tự) hoặc <ol> (ordered list = danh sách có thứ tự).
-                               Mỗi <li> = một gạch đầu dòng / số thứ tự.-->
+      <li>Tôi 15 tuổi</li>    
     </dd>
     </section>
 
 <article>
-    <dt id="gioitinh"> Giới tính </dt>   <!--<dt> (definition term): tên thuật ngữ / mục cần giải thích.-->
-<dd><li>Tôi là nam</li></dd>    <!--<dd> (definition description): phần mô tả, giải thích cho dt -->
+    <dt id="gioitinh"> Giới tính </dt>   
+<dd><li>Tôi là nam</li></dd>    
 </article>
 
 <article>
@@ -110,21 +93,19 @@ nav a:hover{color:crimson;}
 
 </details>
 
-</dl>    <!--<dl>: thẻ bao danh sách mô tả.-->
+</dl>   
 
 <br>
-<table>            <!--Thẻ <table> trong HTML dùng để tạo bảng.
-                      Bên trong nó thường có <tr> (hàng), <th> (ô tiêu đề), <td> (ô dữ liệu).
-                      Có thể thêm thuộc tính như border, cellpadding, cellspacing, width, … để định dạng.-->
+<table>   
 <caption>
 Thời gian biểu
 </caption>
 
-<thead>     <!--<thead> → phần đầu bảng, chứa tiêu đề cột (thường là <tr> + <th>). (<tfoot>).-->
+<thead>     
 
-<tr>     <!--Lệnh <tr> trong HTML dùng để tạo một hàng (table row) trong bảng.-->
+<tr>     
 
-<th>         <!--Lệnh <th> trong HTML dùng để tạo ô tiêu đề (table header) trong bảng.-->
+<th>        
   Thời gian
 </th>
 
@@ -136,14 +117,11 @@ Thời gian biểu
 
 </thead>
 
-<tbody>  <!--phần thân bảng, chứa dữ liệu chính (thường là <tr> + <td>).-->
+<tbody> 
 
 <tr>
 
-<td>     <!--Lệnh <td> trong HTML dùng để tạo ô dữ liệu (table data cell) trong bảng.
-            Nằm trong <tr>.
-            Chứa dữ liệu thường (văn bản, số, hình ảnh, link, …).
-            Mỗi <td> = một ô trong hàng.-->
+<td>     
 
 <time datetime="6:00">6:00</time>-<time datetime="6:30">6:30</time>
 </td>
@@ -166,9 +144,7 @@ Thời gian biểu
 
 <tr>
 
-<td rowspan="2">     <!--Thuộc tính rowspan dùng trong thẻ <td> hoặc <th> để gộp nhiều hàng (row) lại thành một ô.
-                     Giá trị của rowspan là số hàng mà ô đó chiếm.
-                     Mặc định = 1 (không gộp).-->
+<td rowspan="2">    
 
 Thời gian rảnh
 </td>
@@ -187,12 +163,9 @@ Thời gian rảnh
 
 </tbody>
 
- <tfoot> <!--<tfoot> → phần chân bảng, chứa thông tin tổng kết (ví dụ: tổng cộng, ghi chú…).-->
+ <tfoot>
 
-<tr> <td colspan="2"> và đó là thời gian biểu của tôi </td> </tr>    <!--colspan trong HTML
-                                                                    Dùng trong <td> hoặc <th> để gộp nhiều cột (column) lại thành một ô.
-                                                                    Giá trị của colspan = số cột mà ô đó chiếm.
-                                                                    Mặc định = 1 (không gộp).-->
+<tr> <td colspan="2"> và đó là thời gian biểu của tôi </td> </tr>    <
 
 
  </tfoot>
@@ -219,6 +192,7 @@ Tạm Biệt
 
 
 <html>
+
 
 
 
