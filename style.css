@@ -2,11 +2,12 @@ html{font-size:large}
     body{background-color: rgb(255,255,255);color:rgb(0,0,0)}
 
     table,tr,td,th,caption{
-border: 1px solid; color: #ffffff;
+border: 1px solid; color: #000000;
 font-family: 'Courier New', Courier, monospace;
 border-collapse: collapse;
 padding: 0.5rem;
     }
+
 
 
 
