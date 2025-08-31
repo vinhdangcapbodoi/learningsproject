@@ -5,8 +5,16 @@ html{font-size:large}
 border: 1px solid; color: #000000;
 font-family: 'Courier New', Courier, monospace;
 border-collapse: collapse;
-padding: 0.5rem;
-    }
+padding: 0.5rem;}
+
+p,h1,h2,h3,h4,h5,h6,summary,details,a,figcaption {text-align: center;}
+
+table{margin-right: auto;margin-left:auto ;}
+
+ul{list-style-type:none ;}
+
+img{margin: auto;;display: block;}
+
 
 
 
