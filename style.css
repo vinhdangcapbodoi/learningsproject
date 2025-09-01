@@ -1,23 +1,37 @@
 html{font-size:large}
-    body{background-color: rgb(255, 242, 239);color:rbg(93, 104, 138)}
+    body{background-color: rgb(255, 242, 239);color:rgb(93, 104, 138)}
 
     table,tr,td,th,caption{
-border: 1px solid; color: #000000;
-font-family:'Asimovian',sans-serif san;
+border: 2px solid; color: #000000;
 border-collapse: collapse;
-padding: 0.5rem;}
-
-p,h1,h2,h3,h4,h5,h6,summary,details,a,figcaption {text-align: center;}
+padding : 0.5rem;
+    }
+p,h1,h2,h3,h4,h5,h6,figcaption {text-align: center;}
 
 table{margin-right: auto;margin-left:auto ;}
 
 ul{list-style-type:none ;}
 
-img{margin: auto;;display: block;}
+img{margin: auto;display: block;}
 
-body {
-      font-family: 'Asimovian', sans-serif;
-    }
+ body {font-family: 'Asimovian', sans-serif;}
+
+ footer {background-color:rgb(247, 165, 165) ;}
+ footer a{color:aliceblue }
+ #two {color: chartreuse;}
+ #two:hover{color: darkorchid;}
+ footer a:hover{color: crimson;}
+ footer a{transition: color 1s ease;}
+
+ header{background-color:rgb(255, 45, 209);text-align: center;}
+
+nav a{color: aliceblue;transition: color 1s ease;}
+nav a:hover{color: crimson;}
+
+.khoi{display: flex  }
+
+#thongtincoban {text-align: center;}
+
 
 
 
