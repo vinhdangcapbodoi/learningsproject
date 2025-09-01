@@ -16,13 +16,13 @@
 
     <style> 
   p {
-    margin:2;
+    margin:2; 
   }
   h1, h2, h3 {
     margin: 2; 
   }
 </style>
-<header style="text-align:center; background-color: rgb(255, 45, 209);">
+<header>
 
   <h2 style="color: aliceblue;">         
   Xin chào
@@ -30,29 +30,29 @@
 
 
 <nav>       
-
-
  <a href="#tuoi"><strong>Tuổi</strong></a> &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#gioitinh"><strong>Giới tính</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#diachinha"><strong>Địa chỉ nhà</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
 </nav>
 
-<style>
-nav a {color: aliceblue;}
-nav a:hover{color:crimson;}
-nav a{transition:color 1s ease;}
-</style>
 </header>
-    
 
-    <hr>                 
-  <h2> Giới thiệu </h2>
-
-  <figure>      
-
-  <a href="about.html"><img src="img/nguyenvinh.png" alt="Nguyễn Vinh" title="Ảnh hồi nhỏ" width="200" height="150"></a>
+    <div class="khoi">
       
-  <figcaption>  
+<div style="height: unset;width: 1000px" class="khoi1">
+
+    <hr>                  
+  
+    <h2> Giới thiệu </h2>
+
+  <figure>     
+
+  <a href="about.html"><img src="img/IMG_1722661770500_1722661794311.jpg" alt="Nguyễn Vinh" title="Ảnh hồi nhỏ" width="200" height="150"></a>
+
+
+
+
+  <figcaption>    
 
     Ảnh tôi lúc nhỏ
   </figcaption>
@@ -61,15 +61,15 @@ nav a{transition:color 1s ease;}
   <p> Tôi là <em>Nguyễn Vinh</em> và:</p>
   <dl>
    
-<details>       
+<details id="thongtincoban">       
 
-<summary>       
+<summary>        
   Thông tin cơ bản
 </summary>
 
   <ul>
 
-    <section>     
+    <section>      
 
     <dt id="tuoi"> - Tuổi: </dt>
     <dd>
@@ -79,7 +79,7 @@ nav a{transition:color 1s ease;}
 
 <article>
     <dt id="gioitinh"> - Giới tính: </dt>  
-<dd><li>Tôi là nam</li></dd>   
+<dd><li>Tôi là nam</li></dd>    
 </article>
 
 <article>
@@ -91,8 +91,9 @@ nav a{transition:color 1s ease;}
 
 </details>
 
-</dl>  
-<table>           
+</dl>    
+
+<table>            
 <caption>
 Thời gian biểu
 </caption>
@@ -101,8 +102,8 @@ Thời gian biểu
 
 <tr>    
 
-<th>  
-    Thời gian
+<th>         
+  Thời gian
 </th>
 
 <th>
@@ -161,13 +162,12 @@ Thời gian rảnh
 
  <tfoot> 
 
-<tr> <td colspan="2"> và đó là thời gian biểu của tôi </td> </tr>  
+<tr> <td colspan="2"> và đó là thời gian biểu của tôi </td> </tr>    
 
 
  </tfoot>
 
 </table>
-
 
 <hr>
 
@@ -175,10 +175,30 @@ Thời gian rảnh
 Tạm Biệt 
 </h2>
 <p>Đến đây là Hết </p>
-</body>
+
+</div>
 
 <hr>
-<footer style="background-color: rgb(247, 165, 165)">
+
+<div style="height: unset;width: 400;" class="khoi2">
+
+<details>
+
+  <summary>
+    <strong>Thông tin liên quan</strong>
+  </summary>
+
+  <ul>
+  <li><p> -Điền link vô đây </p></li>
+  </ul>
+
+</details>
+
+</div>
+
+</div>
+
+<footer>
 
 <p> &lt;&lt;&lt; <a href="about.html" id="two">NGUYỄN VINH</a>&gt;&gt;&gt;</p>
 
@@ -187,19 +207,11 @@ Tạm Biệt
 <p> <a href="mailto:Vinhhayqua@gmail.com" >Email của tôi</a></p>
 <p> <a href="tel:+0375442934" >số điện thoại</a></p>  
 
-<style>
-footer a:hover{color: crimson;}
-footer a {transition: color 1s ease;}
-footer a {color: aliceblue;}
-#two {color: chartreuse;}
-#two:hover{color: blueviolet;}
-</style>
-
 </footer>
 
+</body>
+
 </html>
-
-
 
 
 
